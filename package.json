@@ -1,0 +1,13 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "lumo -c src src/hello_world.cljs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
