@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "build": "lumo -c src src/hello_world.cljs"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lumo -c src src/hello_world.cljs"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lumo-cljs": "^1.8.0-beta"
+  }
 }
